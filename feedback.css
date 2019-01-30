@@ -1,0 +1,50 @@
+﻿body {
+    background-color:none;
+
+}
+table {
+    
+    border-collapse: collapse;
+    border: 2px solid green;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+input[type=tel] {
+    background-color: aqua;
+    color: darkgreen;
+}
+legend {
+    font-size: 45px;
+    color: orange;
+}
+#theField {
+    background-color: aquamarine;
+    color: forestgreen;
+    font-family: 'Montserrat', sans-serif;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+   
+}
+fieldset {
+    margin: 20px 0;
+}
+
+fieldset input, button {
+    padding: 5px;
+}
+
+
+
+table, th, td {
+    border: 2px solid green;
+    border-collapse:collapse;
+}
+table th, table td {
+        padding: 10px;
+        text-align: left;
+    }

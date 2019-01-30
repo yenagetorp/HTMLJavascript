@@ -1,0 +1,11 @@
+﻿//skapa variable
+$baseColor: blue;
+$resonableSpace: 20px;
+body {
+    background-color:$baseColor;
+}
+
+div{
+    color:$baseColor;
+    margin: $resonableSpace +5px;
+}

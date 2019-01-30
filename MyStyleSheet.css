@@ -1,0 +1,151 @@
+﻿/*
+    Css3_Units
+    px: pixels (not necessarilyscreenpixels)
+    em: relative to sizeofcurrentelements font (1em = heightofthe font)
+    rem: relative to sizeofhtml elements font (1rem = heightofthefont)
+    vw,vh% relative to widthofviewport
+    %: relativetoparentelement
+*/
+
+body {
+    background-color:none;
+}
+
+
+header {
+    /* background-image: url(nature-01.jpg);*/
+    background-color: forestgreen;
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+    font-family: 'Black And White Picture', sans-serif;
+}
+
+ul {
+    border: 2px solid blue;
+    font-size: 2rem; /*calculate the font based on percentage*/
+    display: flex;
+    list-style:none;
+}
+
+li a:hover {
+        font-size: 2rem; /*calculate the font based on percentage*/
+        display: flex;
+        color: red;
+}
+
+
+main {
+    /*background-color: gray;*/
+    background-image: url(https://us.123rf.com/450wm/ggalyna/ggalyna1707/ggalyna170700332/81565964-casino-play-card-icons-vector-background.jpg?ver=6);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: orange;
+    font-size:large;
+}
+
+#Played {
+    font-family: 'Montserrat', sans-serif;
+    color: orange;
+    font-size: large;
+}
+
+img {
+    width: 15vw;
+}
+
+section {
+    text-align:center;
+}
+.coloumn {
+    float: left;
+    width: 20%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.coloumn .boxed {
+    border: 1px solid;
+    border-color: black;
+}
+
+#table, td, th {
+    border: 2px solid green;
+    border-collapse: collapse;
+    color: forestgreen;
+}
+#table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+#th {
+    height : 50px;
+}
+
+
+
+
+
+fieldset {
+    background-color:antiquewhite;
+    width:50%;
+}
+
+:valid {
+    border: 3px dashed green;
+}
+
+:invalid {
+    border: 3px dashed red;
+}
+
+#playerCard:hover{
+    transform: rotate(-5deg) scale(1.05);
+    transition: transform 2s;
+}
+
+#playerCard.rotation {
+    transform: rotate(5deg) scale(0.95);
+    transition: transform 2s;
+}
+
+/*main div {
+    font-size: 45px;
+    }*/
+   
+    /*#computer,
+    #player{
+        bottom: 10vh;
+    }
+    
+    main #player{
+        border: 5px solid orange;
+    }
+
+    #computer,
+    #deck{
+        left: 200px;
+    }
+
+    html > body main > div > img{
+        border-color: purple;
+    }
+
+   #player, #discard{
+       right:10vw;
+       border-color: green;
+    }
+   main div p{
+       background-color:darkorchid;
+   }*/
+

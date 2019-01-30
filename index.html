@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap-reboot.css">
+
+    <!--<link href="https://fonts.googleapis.com/css?family=Black+And+White+Picture|Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kumar+One+Outline" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css?family=Black+And+White+Picture|Montserrat|Oswald" rel="stylesheet">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="MyStyleSheet.css" />
+    <style>
+    </style>
+</head>
+<body>
+
+    <h1> My awesome card Game</h1>
+    <header>
+        <!--*navigating*/-->
+        <nav>
+            <ul>
+                <li><a href="Application.html"><strong>Play!</strong></a></li>
+                <li><a href="Application.html"><strong>Save Games!</strong></a></li>
+                <li><a href="feedback.html"><strong>Feedback!</strong></a></li>
+
+            </ul>
+
+        </nav>
+        <section class="row boxed">
+            <time class="coloumn boxed" id="time">50 s</time>
+            <div class="coloumn boxed" id="points"> 500 points</div>
+        </section>
+    </header>
+
+    <!-- //*huvudområde for game, innehållet*//-->
+
+
+    <main class="row">
+        <div class="coloumn" id="deckCard">
+             <img class="card" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Card_back_08.svg/329px-Card_back_08.svg.png" /> 
+            <p>Deck</p>
+        </div>
+        <div class="coloumn" id="computerCard">
+            <img class="card" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/English_pattern_jack_of_clubs.svg/320px-English_pattern_jack_of_clubs.svg.png" /> 
+            <p>Computer</p>
+        </div>
+        <div class="coloumn" id="playerCard">
+            <img class="card"  src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/English_pattern_jack_of_clubs.svg/320px-English_pattern_jack_of_clubs.svg.png" /> 
+            <p>Player</p>
+            <p id="Played">Played</p>
+        </div>
+        <div class="coloumn" id="discardCard">
+            <img class="card" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/English_pattern_jack_of_clubs.svg/320px-English_pattern_jack_of_clubs.svg.png" />  
+            <p>Discard</p>
+        </div>
+    </main>
+
+
+
+
+    <section>
+        <button id="newGame" style="background-color:forestgreen">New Game</button>
+        <button style="background-color:yellow">Pause</button>
+        <button style="background-color:firebrick">Save</button>
+    </section>
+    <br />
+    <table id="table">
+        <thead>
+            <tr>
+                <th id="th">Name</th>
+                <th id="th"><time id="date">Date</time></th>
+                <th id="th">Points</th>
+                <th id="th"><time>Time</time></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="table, td, th">Joshuaa</td>
+                <td id="table, td, th"><time>20018-11-12</time></td>
+                <td id="table, td, th">500000 points</td>
+                <td id="table, td, th"><time> 25 seconds</time></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <script src="lab.js"></script>
+
+</body>
+</html>
+
+
+   
+   
